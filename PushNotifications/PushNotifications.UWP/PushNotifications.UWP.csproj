@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{33EF29E0-2948-45B9-B627-634FD09FFEAD}</ProjectGuid>
+    <ProjectGuid>{781E29F8-CE62-4628-9590-1783D8895496}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PushNotifications.UWP</RootNamespace>
@@ -143,13 +143,13 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.6.0.726" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.10" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.9"/>
+    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PushNotifications\PushNotifications.csproj">
-      <Project>{13C2FE12-FE1A-4221-B16B-9D1FDBA6C8C4}</Project>
+      <Project>{691D410D-3DB3-41C2-8C6A-8502C1F316C8}</Project>
       <Name>PushNotifications</Name>
     </ProjectReference>
   </ItemGroup>

@@ -8,9 +8,12 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Entry x:Name="messageEntryField" Placeholder="Message" HorizontalOptions="FillAndExpand">
+
+        </Entry>
+        <Button x:Name="notificationButton" Text="Send Notification" HorizontalOptions="CenterAndExpand">
+
+        </Button>
     </StackLayout>
 
 </ContentPage>

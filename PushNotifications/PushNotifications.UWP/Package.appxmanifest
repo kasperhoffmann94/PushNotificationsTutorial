@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="d2371e72-a2c1-4a4f-ad93-1a2db3288b59"
-    Publisher="CN=15f58297-3c31-4244-be82-9b0154d34b75"
+    Name="ed0a625c-1e3c-4514-969b-32c552e06342"
+    Publisher="CN=32702c7e-5625-4912-b93b-cbdcec59baf9"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>PushNotifications.UWP</DisplayName>
-    <PublisherDisplayName>15f58297-3c31-4244-be82-9b0154d34b75</PublisherDisplayName>
+    <PublisherDisplayName>32702c7e-5625-4912-b93b-cbdcec59baf9</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
