@@ -17,5 +17,10 @@ namespace PushNotifications
         {
             InitializeComponent();
         }
+
+        private void SendNotification(object sender, EventArgs e)
+        {
+            DependencyService.Get<INotification>().CreateNotification("PushTutorial", messageEntryField.Text);
+        }
     }
 }

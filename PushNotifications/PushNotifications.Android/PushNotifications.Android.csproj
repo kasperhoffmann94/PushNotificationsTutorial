@@ -65,7 +65,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FirebaseIIDService.cs" />
-    <Compile Include="INotification.cs" />
     <Compile Include="MyFirebaseMessagingService.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="NotificationHelper.cs" />
@@ -96,7 +95,11 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\main.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PushNotifications\PushNotifications.csproj">
       <Project>{691D410D-3DB3-41C2-8C6A-8502C1F316C8}</Project>
